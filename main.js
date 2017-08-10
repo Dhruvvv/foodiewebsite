@@ -1,0 +1,7 @@
+var foodieApp = angular.module('foodieApp',[]);
+//console.log(foodieApp);
+//controllers used to control
+foodieApp.controller('mainController',function($scope) {
+    $scope.restaurants = ['Farzi Cafe','Pizza Hut','Wenger\'s Deli','Sagar Ratna'];    
+     
+})
